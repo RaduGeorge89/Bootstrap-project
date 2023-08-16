@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Components</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <style>
+ .feature-icon {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 0.75rem;
+}
+
+  </style>
+</head>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"> <img src="./lopgo.jpg" height="50" alt="">Brew-Tang Clan</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Photo Gallery</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Beer Types
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">The Blondes</a></li>
+              <li><a class="dropdown-item" href="#">The Brunettes</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Surprise</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div class="px-4 pt-5 my-5 text-center border-bottom">
+    <h1 class="display-4 fw-bold text-body-emphasis">"Brewing Symphony"</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">Embark on a journey through our brewing factory, where science meets artistry to craft liquid dreams. 
+        Nestled within our stainless steel walls, innovation and tradition unite to transform humble ingredients into liquid gold. 
+        Witness the rhythmic dance of machinery and the symphony of aromas, as our master brewers orchestrate their magic. 
+        From the delicate first pour to the robust crescendo of flavors, every drop tells a tale of passion, precision, and the pursuit 
+        of perfection. Step into the heart of our brewing sanctuary and immerse yourself in the alchemy of taste that defines us.</p>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+        <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">Order</button>
+        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Contact us</button>
+      </div>
+    </div>
+    <div class="overflow-hidden" style="max-height:100vh;">
+      <div class="container px-5">
+        <img src="./male-brewer.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image"  loading="lazy">
+      </div>
+    </div>
+  </div>
+  
+  <div class="container px-4 py-5" id="featured-3">
+    <h2 class="pb-2 border-bottom"></h2>
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+      <div class="feature col">
+        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <img src="./light-bulb.png" alt="" height="50">
+        </div>
+        <h3 class="fs-2 text-body-emphasis">Did you know?</h3>
+        <p>In 2010, a team of archaeologists discovered what is believed to be the world's oldest known brewery in a cave in Israel. The site dates back to around 13,000 years
+           ago and contained evidence of a beer production process involving the fermentation of grains, possibly for religious or communal purposes. This finding provides fascinating 
+           insights into the ancient origins of beer and its role in human culture.</p>
+        <a href="#" class="icon-link">
+          
+        </a>
+      </div>
+      <div class="feature col">
+        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <img src="./png-transparent-computer-icons-cereal-wheat-line-drawing-cereal-crop-black-and-white-thumbnail.png" alt="" height="50">
+        </div>
+        <h3 class="fs-2 text-body-emphasis">What do we use?</h3>
+        <p>Our brewery takes pride in curating the finest ingredients to concoct our exceptional beers. Each brew is meticulously crafted using the purest water, carefully selected malted 
+          barley for depth and richness, aromatic hops for distinctive flavors and aromas, and the magic of yeast to bring it all to life. With every sip, you experience the harmonious blend
+           of these premium elements, transforming them into a symphony of taste that delights the senses and tells the story of our dedication to the art of brewing</p>
+        <a href="#" class="icon-link">
+          
+         
+        </a>
+      </div>
+      <div class="feature col">
+        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+          <img src="./pngwing.com.png" alt="" height="50">
+        </div>
+        <h3 class="fs-2 text-body-emphasis">Innovative Flair</h3>
+        <p>Innovation flows as freely as our beer within these walls. We thrive on pushing boundaries and crafting beers that transcend convention. From experimental flavor infusions to 
+          cutting-edge brewing techniques, our factory is a hub of invention where the possibilities of beer are endlessly explored.</p>
+        <a href="#" class="icon-link">
+         
+          
+        </a>
+      </div>
+    </div>
+  </div>
+  </div>
+
+</body>
+
+</html>
